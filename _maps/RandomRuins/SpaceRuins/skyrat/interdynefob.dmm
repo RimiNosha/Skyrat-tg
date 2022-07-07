@@ -8213,7 +8213,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/syndicate/chameleon,
+/obj/machinery/suit_storage_unit{
+	mod_type = /obj/item/mod/control/pre_equipped/elite
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/skyrat/interdynefob/bridge/admiral)
 "Ck" = (
