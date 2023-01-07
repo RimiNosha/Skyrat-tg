@@ -1,3 +1,0 @@
-# Updates turnstiles to use prison gates.
-
-/obj/machinery/turnstile : /obj/machinery/prisongate
