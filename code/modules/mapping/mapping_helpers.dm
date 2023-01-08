@@ -533,7 +533,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 				var/datum/species/new_human_species = GLOB.species_list[species_to_pick]
 				if(new_human_species)
 					new_human.set_species(new_human_species)
-					new_human_species = new_human.dna.species
+					new_human_species = new_human.dna.species // SKYRAT EDIT ADDITION - Fixes weirdness with our species code
 					new_human_species.randomize_features(new_human)
 					new_human.fully_replace_character_name(new_human.real_name, new_human_species.random_name(new_human.gender, TRUE, TRUE))
 				else
